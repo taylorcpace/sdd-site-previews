@@ -286,3 +286,16 @@ h1{font-size:clamp(2.2rem,5vw,3.4rem)}h2{font-size:clamp(1.55rem,3vw,2.3rem)}h3{
 .hero--clean .hero__copy{padding:0;max-width:38rem}
 .hero--clean .hero__orders{margin-bottom:0}
 @media(max-width:900px){.hero.hero--samples.hero--clean{padding:4.5rem 0 4rem;min-height:0}}
+
+
+/* === R3: centered top social icon row === */
+.top-social{background:transparent;padding:.45rem 0 .15rem;border:0}
+.top-social__list{list-style:none;display:flex;justify-content:center;align-items:center;gap:1.15rem;margin:0;padding:0}
+.top-social a{display:inline-flex;align-items:center;justify-content:center;width:28px;height:28px;color:inherit;opacity:.78;border-radius:50%;text-decoration:none}
+.top-social a:hover{opacity:1;text-decoration:none}
+.top-social svg{display:block;width:16px;height:16px}
+.promo-bar + .site-header .top-social, .top-social + .promo-bar{/* spacing handled by paddings */}
+/* Place social above promo: ink/sand contrast */
+body[data-direction="flow-clarity"] .top-social{color:#fff;background:var(--ink,#0a1a2f);padding:.55rem 0}
+body[data-direction="congrats-guided"] .top-social{color:var(--ink,#1c1c1c);background:var(--sand,#f3efe8);border-bottom:1px solid var(--line,#e6e1d9);padding:.5rem 0}
+body[data-direction="criquet-clean"] .top-social{color:var(--ink,#1a1a1a);background:var(--sand,#f6f3ee);border-bottom:1px solid var(--line,#e8e2d8);padding:.5rem 0}

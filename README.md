@@ -14,6 +14,7 @@ Old directions (bold-commerce, studio-craft, clean-commerce, classic-academic) r
 - **flow-clarity:** Dropped middle custom-covers promo; two equal promo cards; real payment/checkout photo; trust grid uses maroon line SVG icons.
 - **congrats-guided:** Ecommerce header — logo left (~68px), Shop dropdown in center nav, Search/Account/Cart right; hamburger on mobile.
 - **criquet-clean:** Full-bleed lifestyle hero kept; removed hero CTA and Diploma/Transcript/Package sample overlays (banner + copy only).
+- **all three:** Centered top social icon row (Instagram, Facebook, YouTube, X, TikTok) above the promo bar.
 
 ## Revision 1 (Oct 5, 2026) — Taylor's notes
 

@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Same Day Diplomas — Design Preview Hub</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  :root { --bg:#0f1115; --card:#1a1d24; --line:#2a2f3a; --text:#e8eaef; --muted:#9aa3b2; --a1:#c4a35a; --a2:#ff4f33; --a3:#5a7266; }
+  * { box-sizing:border-box; margin:0; padding:0; }
+  body { font-family:Inter,system-ui,sans-serif; background:var(--bg); color:var(--text); line-height:1.6; min-height:100vh; }
+  .wrap { width:min(980px,92%); margin:0 auto; padding:3.5rem 0 4rem; }
+  header { margin-bottom:2.5rem; }
+  .kicker { font-size:12px; letter-spacing:.14em; text-transform:uppercase; color:var(--muted); margin-bottom:.75rem; }
+  h1 { font-size:clamp(1.8rem,4vw,2.4rem); font-weight:700; letter-spacing:-.02em; margin-bottom:.75rem; }
+  .lede { color:var(--muted); max-width:58ch; }
+  .grid { display:grid; gap:1.25rem; margin-top:2.5rem; }
+  .card {
+    background:var(--card); border:1px solid var(--line); border-radius:14px; padding:1.75rem 1.6rem;
+    display:grid; grid-template-columns:140px 1fr auto; gap:1.25rem; align-items:center;
+    transition:border-color .2s, transform .2s;
+  }
+  .card:hover { border-color:#4a5568; transform:translateY(-2px); }
+  .swatch { height:88px; border-radius:10px; display:grid; place-items:center; font-size:11px; font-weight:700; letter-spacing:.08em; text-transform:uppercase; }
+  .s1 { background:linear-gradient(135deg,#1a2744,#efe6d3); color:#efe6d3; }
+  .s2 { background:linear-gradient(135deg,#0b0b0b,#ff4f33); color:#fff; }
+  .s3 { background:linear-gradient(135deg,#f3f1ec,#3d4f46); color:#3d4f46; }
+  .card h2 { font-size:1.2rem; margin-bottom:.35rem; }
+  .card p { color:var(--muted); font-size:.95rem; }
+  .card .go {
+    display:inline-block; padding:.7rem 1.1rem; border-radius:999px; background:#fff; color:#111;
+    font-size:13px; font-weight:700; text-decoration:none; white-space:nowrap;
+  }
+  .card .go:hover { opacity:.9; }
+  .note { margin-top:2.5rem; padding:1.25rem 1.4rem; border:1px dashed var(--line); border-radius:12px; color:var(--muted); font-size:.9rem; }
+  @media (max-width:720px) {
+    .card { grid-template-columns:1fr; }
+    .swatch { height:64px; }
+    .card .go { justify-self:start; }
+  }
+</style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <div class="kicker">Same Day Diplomas · Facelift previews</div>
+      <h1>Three storefront directions</h1>
+      <p class="lede">Clickable HTML design previews using live SDD copy, prices, and novelty disclaimers. Each direction includes Home, Shop, and a sample Product page. CTAs are non-functional except internal navigation.</p>
+    </header>
+    <div class="grid">
+      <article class="card">
+        <div class="swatch s1">Navy · Cream · Gold</div>
+        <div>
+          <h2>1 · Classic Academic</h2>
+          <p>Ceremonial serif hero, seal-style trust bar, registrar category portals, materials gallery. Inspired by diplomasusa / diplomacompany craft + wehonoru dignity.</p>
+        </div>
+        <a class="go" href="classic-academic/index.html">Open preview →</a>
+      </article>
+      <article class="card">
+        <div class="swatch s2">Ink · Accent red</div>
+        <div>
+          <h2>2 · Bold Commerce</h2>
+          <p>Persistent trust strip, big shop-by-level tiles, price-forward cards, package/payment-plan callouts. Conversion-first and scannable.</p>
+        </div>
+        <a class="go" href="bold-commerce/index.html">Open preview →</a>
+      </article>
+      <article class="card">
+        <div class="swatch s3">Stone · Sage</div>
+        <div>
+          <h2>3 · Editorial Minimal</h2>
+          <p>Whitespace, intent cards (lost/keepsake/prop), guided fewer CTAs, soft contemporary type. Calm guided UX — not SaaS template.</p>
+        </div>
+        <a class="go" href="editorial-minimal/index.html">Open preview →</a>
+      </article>
+    </div>
+    <div class="note">
+      Content preserved from samedaydiplomas.com (fetched Oct 5, 2026 ET). Products are novelty/replica only. Files are local previews — not deployed.
+    </div>
+  </div>
+</body>
+</html>

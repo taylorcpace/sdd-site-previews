@@ -3,81 +3,57 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Same Day Diplomas — Design Preview Hub</title>
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<title>Same Day Diplomas — Layout Preview Hub</title>
 <style>
-  :root { --bg:#0f1115; --card:#1a1d24; --line:#2a2f3a; --text:#e8eaef; --muted:#9aa3b2; --a1:#c4a35a; --a2:#ff4f33; --a3:#5a7266; }
-  * { box-sizing:border-box; margin:0; padding:0; }
-  body { font-family:Inter,system-ui,sans-serif; background:var(--bg); color:var(--text); line-height:1.6; min-height:100vh; }
-  .wrap { width:min(980px,92%); margin:0 auto; padding:3.5rem 0 4rem; }
-  header { margin-bottom:2.5rem; }
-  .kicker { font-size:12px; letter-spacing:.14em; text-transform:uppercase; color:var(--muted); margin-bottom:.75rem; }
-  h1 { font-size:clamp(1.8rem,4vw,2.4rem); font-weight:700; letter-spacing:-.02em; margin-bottom:.75rem; }
-  .lede { color:var(--muted); max-width:58ch; }
-  .grid { display:grid; gap:1.25rem; margin-top:2.5rem; }
-  .card {
-    background:var(--card); border:1px solid var(--line); border-radius:14px; padding:1.75rem 1.6rem;
-    display:grid; grid-template-columns:140px 1fr auto; gap:1.25rem; align-items:center;
-    transition:border-color .2s, transform .2s;
-  }
-  .card:hover { border-color:#4a5568; transform:translateY(-2px); }
-  .swatch { height:88px; border-radius:10px; display:grid; place-items:center; font-size:11px; font-weight:700; letter-spacing:.08em; text-transform:uppercase; }
-  .s1 { background:linear-gradient(135deg,#1a2744,#efe6d3); color:#efe6d3; }
-  .s2 { background:linear-gradient(135deg,#0b0b0b,#ff4f33); color:#fff; }
-  .s3 { background:linear-gradient(135deg,#f3f1ec,#3d4f46); color:#3d4f46; }
-  .card h2 { font-size:1.2rem; margin-bottom:.35rem; }
-  .card p { color:var(--muted); font-size:.95rem; }
-  .card .go {
-    display:inline-block; padding:.7rem 1.1rem; border-radius:999px; background:#fff; color:#111;
-    font-size:13px; font-weight:700; text-decoration:none; white-space:nowrap;
-  }
-  .card .go:hover { opacity:.9; }
-  .note { margin-top:2.5rem; padding:1.25rem 1.4rem; border:1px dashed var(--line); border-radius:12px; color:var(--muted); font-size:.9rem; }
-  @media (max-width:720px) {
-    .card { grid-template-columns:1fr; }
-    .swatch { height:64px; }
-    .card .go { justify-self:start; }
-  }
+  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap');
+  *{box-sizing:border-box;margin:0;padding:0}
+  body{font-family:Inter,system-ui,sans-serif;background:#0f1115;color:#e8eaed;line-height:1.55;padding:2.5rem 1.25rem}
+  .wrap{max-width:980px;margin:0 auto}
+  h1{font-size:1.75rem;font-weight:800;margin-bottom:.5rem}
+  .sub{color:#9aa0a6;margin-bottom:2rem}
+  .grid{display:grid;grid-template-columns:1fr 1fr;gap:1.25rem}
+  a.card{display:block;padding:1.5rem;border-radius:10px;text-decoration:none;color:inherit;border:1px solid #2a2f3a;background:#161a22;transition:transform .15s,border-color .15s}
+  a.card:hover{transform:translateY(-2px);border-color:#5c6bc0}
+  .swatch{display:flex;gap:.35rem;margin-bottom:1rem}
+  .swatch i{width:28px;height:28px;border-radius:6px;display:block;border:1px solid #ffffff22}
+  .card h2{font-size:1.15rem;margin-bottom:.4rem}
+  .card p{font-size:.9rem;color:#9aa0a6}
+  .tag{display:inline-block;font-size:.7rem;letter-spacing:.12em;text-transform:uppercase;font-weight:800;margin-bottom:.65rem;opacity:.75}
+  .note{margin-top:2rem;font-size:.85rem;color:#9aa0a6;padding:1rem;border:1px dashed #2a2f3a;border-radius:8px}
+  @media(max-width:700px){.grid{grid-template-columns:1fr}}
 </style>
 </head>
 <body>
-  <div class="wrap">
-    <header>
-      <div class="kicker">Same Day Diplomas · Facelift previews</div>
-      <h1>Three storefront directions</h1>
-      <p class="lede">Clickable HTML design previews using live SDD copy, prices, and novelty disclaimers. Each direction includes Home, Shop, and a sample Product page. CTAs are non-functional except internal navigation.</p>
-    </header>
-    <div class="grid">
-      <article class="card">
-        <div class="swatch s1">Navy · Cream · Gold</div>
-        <div>
-          <h2>1 · Classic Academic</h2>
-          <p>Ceremonial serif hero, seal-style trust bar, registrar category portals, materials gallery. Inspired by diplomasusa / diplomacompany craft + wehonoru dignity.</p>
-        </div>
-        <a class="go" href="classic-academic/index.html">Open preview →</a>
-      </article>
-      <article class="card">
-        <div class="swatch s2">Ink · Accent red</div>
-        <div>
-          <h2>2 · Bold Commerce</h2>
-          <p>Persistent trust strip, big shop-by-level tiles, price-forward cards, package/payment-plan callouts. Conversion-first and scannable.</p>
-        </div>
-        <a class="go" href="bold-commerce/index.html">Open preview →</a>
-      </article>
-      <article class="card">
-        <div class="swatch s3">Stone · Sage</div>
-        <div>
-          <h2>3 · Editorial Minimal</h2>
-          <p>Whitespace, intent cards (lost/keepsake/prop), guided fewer CTAs, soft contemporary type. Calm guided UX — not SaaS template.</p>
-        </div>
-        <a class="go" href="editorial-minimal/index.html">Open preview →</a>
-      </article>
-    </div>
-    <div class="note">
-      Content preserved from samedaydiplomas.com (fetched Oct 5, 2026 ET). Products are novelty/replica only. Files are local previews — not deployed.
-    </div>
+<div class="wrap">
+  <h1>Same Day Diplomas — Layout Preview Hub</h1>
+  <p class="sub">Four clearly different storefront directions. Full homepage content inventory from Design 4 PDF / live site. Click through Home → Shop → Product in each.</p>
+  <div class="grid">
+    <a class="card" href="classic-academic/index.html">
+      <div class="tag">Direction 1</div>
+      <div class="swatch"><i style="background:#1a2744"></i><i style="background:#f7f1e4"></i><i style="background:#c4a35a"></i></div>
+      <h2>Classic Academic</h2>
+      <p>Ceremonial catalog. Navy / cream parchment / gold. Serif display. Centered heraldic hero. Formal seal trust bar. Registrar portals.</p>
+    </a>
+    <a class="card" href="bold-commerce/index.html">
+      <div class="tag">Direction 2</div>
+      <div class="swatch"><i style="background:#111"></i><i style="background:#ff4f33"></i><i style="background:#fff"></i></div>
+      <h2>Bold Commerce</h2>
+      <p>Conversion-first retail. Near-black + cart accent #ff4f33. Condensed Oswald type. Sticky trust strip. Oversized shop tiles. Price-forward.</p>
+    </a>
+    <a class="card" href="studio-craft/index.html">
+      <div class="tag">Direction 3 — NEW</div>
+      <div class="swatch"><i style="background:#f5f0e8"></i><i style="background:#6b4c35"></i><i style="background:#3d3833"></i></div>
+      <h2>Studio Craft</h2>
+      <p>Material / photography-led. Warm stone, taupe, leatherette browns. Fraunces + Inter. Editorial rhythm with full content inventory.</p>
+    </a>
+    <a class="card" href="clean-commerce/index.html">
+      <div class="tag">Direction 4 — PDF Match</div>
+      <div class="swatch"><i style="background:#fff"></i><i style="background:#1a2744"></i><i style="background:#d32f2f"></i></div>
+      <h2>Clean Commerce</h2>
+      <p>Boldest fullest Design 4. White + navy + primary red. Split hero. Dark feature grids. Pale pink bands. Red comparison column.</p>
+    </a>
   </div>
+  <p class="note">Content/copy/prices/claims kept AS-IS from PDF + live site. Novelty/replica honesty language retained. Previews are disk-only — not deployed.</p>
+</div>
 </body>
 </html>

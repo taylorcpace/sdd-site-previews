@@ -31,4 +31,16 @@
       showMore.textContent = target?.classList.contains('is-expanded') ? 'SHOW LESS' : 'SHOW MORE';
     });
   }
+  const main = document.querySelector('[data-gallery-main]');
+  if (main) {
+    document.querySelectorAll('[data-gallery-thumb]').forEach(btn => {
+      btn.addEventListener('click', () => {
+        const src = btn.getAttribute('data-src');
+        if (!src) return;
+        main.src = src;
+        document.querySelectorAll('[data-gallery-thumb]').forEach(b => b.classList.remove('is-active'));
+        btn.classList.add('is-active');
+      });
+    });
+  }
 })();

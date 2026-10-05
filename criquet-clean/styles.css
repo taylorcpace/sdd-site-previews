@@ -279,3 +279,10 @@ h1{font-size:clamp(2.2rem,5vw,3.4rem)}h2{font-size:clamp(1.55rem,3vw,2.3rem)}h3{
 @media(max-width:600px){.site-header .logo img{height:32px}}
 
 @media(max-width:520px){.pay-visual__tray{gap:.25rem;padding:.4rem .45rem;bottom:6%}.pay-visual__pi svg{width:26px !important}.pay-visual__png{height:15px}.pay-visual__card{top:9%;width:48%}.pay-visual__bnpl{top:10%}}
+
+
+/* === R3: clean full-bleed hero — banner + copy only (no CTA, no sample cards) === */
+.hero.hero--samples.hero--clean{padding:6.5rem 0 6rem;min-height:420px;display:flex;align-items:center}
+.hero--clean .hero__copy{padding:0;max-width:38rem}
+.hero--clean .hero__orders{margin-bottom:0}
+@media(max-width:900px){.hero.hero--samples.hero--clean{padding:4.5rem 0 4rem;min-height:0}}

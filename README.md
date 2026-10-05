@@ -2,8 +2,9 @@
 
 Design-only facelift concepts using live samedaydiplomas.com copy + CDN images. Not the live storefront.
 
+**Classic Academic removed** from this preview set.
+
 - [Hub](https://taylorcpace.github.io/sdd-site-previews/)
-- [1 Classic Academic](https://taylorcpace.github.io/sdd-site-previews/classic-academic/)
-- [2 Bold Commerce](https://taylorcpace.github.io/sdd-site-previews/bold-commerce/)
-- [3 Studio Craft](https://taylorcpace.github.io/sdd-site-previews/studio-craft/)
-- [4 Clean Commerce](https://taylorcpace.github.io/sdd-site-previews/clean-commerce/)
+- [Bold Commerce](https://taylorcpace.github.io/sdd-site-previews/bold-commerce/)
+- [Studio Craft](https://taylorcpace.github.io/sdd-site-previews/studio-craft/)
+- [Clean Commerce](https://taylorcpace.github.io/sdd-site-previews/clean-commerce/)

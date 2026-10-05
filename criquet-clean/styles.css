@@ -210,23 +210,29 @@ h1{font-size:clamp(2.2rem,5vw,3.4rem)}h2{font-size:clamp(1.55rem,3vw,2.3rem)}h3{
 .btn,.btn--ghost,.help-band .btn,.help-band .btn--ghost,.promo-card a.cta-link,.promo-card a.cta-link.btn{background:var(--maroon);color:#fff;border:1.5px solid var(--maroon)}
 .btn:hover,.btn--ghost:hover,.help-band .btn:hover,.help-band .btn--ghost:hover,.promo-card a.cta-link:hover{background:var(--maroon-dark);border-color:var(--maroon-dark);color:#fff}
 .promo-card a.cta-link{display:inline-block;padding:.9rem 1.4rem;font-size:12px;letter-spacing:.12em}
-/* Hero: labeled samples Diploma | Transcript | Package */
-.hero.hero--samples{padding:3.5rem 0 3.75rem;background:var(--sand)}
-.hero--samples .container{display:block;width:min(var(--max),94%);max-width:none;min-height:0;padding:0;margin:0 auto}
-.hero--samples .hero__copy{display:grid;grid-template-columns:1.15fr .85fr;gap:2.5rem;align-items:end;padding:0 0 2.25rem;background:transparent}
-.hero--samples h1{max-width:16ch;margin:.35rem 0 0}
-.hero--samples .hero__sub{margin-bottom:.75rem}
-.hero-samples{display:grid;grid-template-columns:repeat(3,1fr);gap:1.1rem}
-.hero-sample{display:block;color:var(--ink);background:#fff;border:1px solid var(--line);transition:box-shadow .2s,transform .2s}
-.hero-sample:hover{box-shadow:0 16px 36px #0000001a;transform:translateY(-3px);color:var(--ink)}
+/* R2 Hero: full-bleed lifestyle banner + elegant sample photography overlays */
+.hero.hero--samples{position:relative;padding:4.5rem 0 4rem;border:0;
+  background:linear-gradient(180deg,rgba(18,12,10,.55) 0%,rgba(18,12,10,.42) 45%,rgba(18,12,10,.58) 100%),
+    url("https://samedaydiplomas.com/cdn/shop/files/baim-hanif-pYWuOMhtc6k-unsplash.jpg?v=1663784853&width=1920") center 40%/cover no-repeat;color:#fff;overflow:hidden}
+.hero--samples .container{display:block;width:min(var(--max),94%);max-width:none;min-height:0;padding:0;margin:0 auto;position:relative;z-index:1}
+.hero--samples .hero__copy{display:block;padding:0 0 2.5rem;background:transparent;max-width:36rem}
+.hero--samples .eyebrow{color:#f0c9c9}
+.hero--samples h1{max-width:16ch;margin:.35rem 0 1rem;color:#fff;text-shadow:0 2px 20px #0007}
+.hero--samples .hero__sub{margin-bottom:.75rem;color:#f0ebe6}
+.hero--samples .hero__orders{color:#f5d0d0}
+.hero--samples .btn{background:#fff;color:var(--maroon);border-color:#fff}
+.hero--samples .btn:hover{background:var(--maroon-soft);color:var(--maroon-dark);border-color:#fff}
+.hero-samples{display:grid;grid-template-columns:repeat(3,1fr);gap:1.5rem;align-items:end}
+.hero-sample{display:block;color:#fff;background:transparent;border:0;text-align:center;transition:transform .25s}
+.hero-sample:hover{transform:translateY(-6px);color:#fff}
 .hero-sample figure{margin:0}
-.hero-sample__img{aspect-ratio:4/3;background:#fff;overflow:hidden}
-.hero-sample__img img{width:100%;height:100%;object-fit:cover;transition:transform .35s}
-.hero-sample:hover .hero-sample__img img{transform:scale(1.03)}
-.hero-sample figcaption{display:flex;flex-direction:column;gap:.2rem;padding:1rem 1.1rem 1.15rem;border-top:1px solid var(--line)}
-.hero-sample__label{font-family:var(--serif);font-size:1.45rem;font-weight:600;line-height:1.1;color:var(--maroon)}
-.hero-sample__name{font-size:.85rem;color:var(--mute);line-height:1.4}
-.hero-sample__price{font-size:.9rem;font-weight:700}
+.hero-sample__img{aspect-ratio:4/3;background:rgba(255,255,255,.95);overflow:hidden;border-radius:6px;
+  box-shadow:0 22px 50px #00000055,0 0 0 1px rgba(255,255,255,.18);padding:.65rem}
+.hero-sample__img img{width:100%;height:100%;object-fit:contain;transition:transform .35s;background:#fff;border-radius:2px}
+.hero-sample:hover .hero-sample__img img{transform:scale(1.02)}
+.hero-sample figcaption{display:flex;flex-direction:column;gap:.15rem;padding:1rem .35rem 0;border:0;background:transparent}
+.hero-sample__label{font-family:var(--serif);font-size:1.35rem;font-weight:600;line-height:1.1;color:#fff;letter-spacing:.02em}
+.hero-sample__name,.hero-sample__price{display:none}
 /* Shop By Category (moved shop-rows) */
 .shop-cat{padding:3.5rem 0 0}
 .shop-cat__head{margin-bottom:1.75rem}
@@ -234,11 +240,11 @@ h1{font-size:clamp(2.2rem,5vw,3.4rem)}h2{font-size:clamp(1.55rem,3vw,2.3rem)}h3{
 .shop-row__media{background:#fff}
 .pay-visual{--pay-a:#7a0f0f;--pay-b:#3d0000;--pay-glow:#ffb4b455}
 @media(max-width:900px){
-  .hero--samples .hero__copy{grid-template-columns:1fr;gap:1rem}
-  .hero-samples{grid-template-columns:1fr 1fr}
+  .hero--samples{padding:3.25rem 0 3rem}
+  .hero-samples{grid-template-columns:1fr 1fr;gap:1rem}
 }
 @media(max-width:600px){
-  .hero-samples{grid-template-columns:1fr}
+  .hero-samples{grid-template-columns:1fr;max-width:280px;margin:0 auto}
   .logo img{height:48px}
 }
 

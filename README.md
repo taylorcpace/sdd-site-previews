@@ -2,9 +2,9 @@
 
 Design-only facelift concepts using live samedaydiplomas.com copy + CDN images. Not the live storefront.
 
-**Classic Academic removed** from this preview set.
+Old directions (bold-commerce, studio-craft, clean-commerce, classic-academic) removed. Three new directions:
 
 - [Hub](https://taylorcpace.github.io/sdd-site-previews/)
-- [Bold Commerce](https://taylorcpace.github.io/sdd-site-previews/bold-commerce/)
-- [Studio Craft](https://taylorcpace.github.io/sdd-site-previews/studio-craft/)
-- [Clean Commerce](https://taylorcpace.github.io/sdd-site-previews/clean-commerce/)
+- [Flow Clarity](https://taylorcpace.github.io/sdd-site-previews/flow-clarity/) — FLOW-inspired; clear, professional service-site clarity
+- [Congrats Guided](https://taylorcpace.github.io/sdd-site-previews/congrats-guided/) — HeyCongrats-inspired; guided, calm, intent-based retail
+- [Criquet Clean](https://taylorcpace.github.io/sdd-site-previews/criquet-clean/) — Criquet-inspired; clean, photo-led merchandise energy

@@ -9,6 +9,11 @@ Old directions (bold-commerce, studio-craft, clean-commerce, classic-academic) r
 - [Congrats Guided](https://taylorcpace.github.io/sdd-site-previews/congrats-guided/) — HeyCongrats-inspired; guided, calm, intent-based retail
 - [Criquet Clean](https://taylorcpace.github.io/sdd-site-previews/criquet-clean/) — Criquet-inspired; clean, photo-led merchandise energy
 
+## Revision 3 (Oct 5, 2026)
+
+- **flow-clarity:** Dropped middle custom-covers promo; two equal promo cards; real payment/checkout photo; trust grid uses maroon line SVG icons.
+- **congrats-guided:** Ecommerce header — logo left (~68px), Shop dropdown in center nav, Search/Account/Cart right; hamburger on mobile.
+
 ## Revision 1 (Oct 5, 2026) — Taylor's notes
 
 - **Flow Clarity:** single-row header (large logo far left · HOME / SHOP NOW mega menu / SUPPORT / BLOG · large Search, Account, Cart); "Since 2001" span removed under logo; mobile drawer with mega menu accordion.

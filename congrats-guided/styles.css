@@ -273,3 +273,51 @@ h1{font-size:clamp(2.1rem,4.5vw,3.15rem);font-weight:800}h2{font-size:clamp(1.5r
 }
 @media(max-width:600px){.site-header .logo img{height:40px}}
 .hero-ctas{display:flex;justify-content:center;gap:.75rem;flex-wrap:wrap;margin-bottom:.25rem}
+
+
+/* === R3: ecommerce header — logo left | nav+Shop middle | icons right === */
+.site-header--ecom .header-row{display:flex;align-items:center;justify-content:space-between;gap:1.5rem;padding:.85rem 0;position:relative}
+.site-header--ecom .logo{display:block;flex:0 0 auto;text-align:left;margin:0}
+.site-header--ecom .logo img{height:68px;width:auto;max-width:none;object-fit:contain}
+.site-header--ecom .main-nav{display:flex;align-items:center;justify-content:center;gap:1.75rem;padding:0;flex-wrap:nowrap;flex:1 1 auto;position:static}
+.site-header--ecom .main-nav > a,.site-header--ecom .nav-shop{font-family:var(--sans);font-size:13px;letter-spacing:.08em;text-transform:uppercase;font-weight:700;color:var(--ink);padding:.55rem 0;background:none;border:0;cursor:pointer;display:inline-flex;align-items:center;gap:.35rem}
+.site-header--ecom .main-nav > a:hover,.site-header--ecom .main-nav > a.is-active{color:var(--accent);text-decoration:none}
+.site-header--ecom .nav-shop{background:var(--accent);color:#fff;padding:.65rem 1.05rem;border-radius:999px}
+.site-header--ecom .nav-shop:hover,.site-header--ecom .nav-item.is-open .nav-shop{background:var(--maroon-dark);color:#fff;text-decoration:none}
+.site-header--ecom .nav-shop .chev{transition:transform .2s}
+.site-header--ecom .nav-item.is-open .nav-shop .chev{transform:rotate(180deg)}
+.site-header--ecom .nav-item{position:static}
+.site-header--ecom .mega{position:absolute;left:0;right:0;top:100%;background:#fff;border:1px solid var(--line);border-radius:0 0 14px 14px;box-shadow:0 24px 48px #0c234022;opacity:0;visibility:hidden;transform:translateY(6px);transition:opacity .16s,transform .16s,visibility .16s;z-index:60}
+.site-header--ecom .nav-item.is-open .mega{opacity:1;visibility:visible;transform:none}
+.site-header--ecom .mega__inner--simple{display:grid;grid-template-columns:repeat(4,1fr);gap:.35rem 1.5rem;padding:1.35rem 1.75rem}
+.site-header--ecom .mega__inner--simple a{color:var(--mute);font-size:.95rem;font-weight:600;padding:.45rem 0;text-transform:none;letter-spacing:normal}
+.site-header--ecom .mega__inner--simple a:hover{color:var(--accent);text-decoration:none}
+.site-header--ecom .mega__all{grid-column:1/-1;color:var(--accent)!important;font-weight:800!important;margin-top:.35rem;border-top:1px solid var(--line);padding-top:.85rem!important}
+.site-header--ecom .header-actions{display:flex;align-items:center;gap:1rem;flex:0 0 auto;margin-left:auto;position:static}
+.site-header--ecom .nav-toggle{display:none;position:static;border:0;padding:.25rem;color:var(--ink);background:none;border-radius:6px;left:auto}
+.site-header--ecom .hdr-icon{text-decoration:none}
+@media(max-width:1000px){
+  .site-header--ecom .logo img{height:60px}
+  .site-header--ecom .main-nav{gap:1.15rem}
+  .site-header--ecom .hdr-icon__label{display:none}
+  .site-header--ecom .mega__inner--simple{grid-template-columns:repeat(3,1fr)}
+}
+@media(max-width:900px){
+  .site-header--ecom .header-row{gap:.75rem;padding:.7rem 0}
+  .site-header--ecom .logo img{height:52px}
+  .site-header--ecom .nav-toggle{display:inline-flex}
+  .site-header--ecom .header-actions{gap:.5rem}
+  .site-header--ecom .hdr-icon svg{width:28px;height:28px}
+  .site-header--ecom .main-nav{display:none;position:absolute;left:0;right:0;top:100%;flex-direction:column;align-items:stretch;gap:0;background:#fff;border-top:1px solid var(--line);box-shadow:0 18px 30px #0c23401f;max-height:calc(100vh - 120px);overflow:auto;padding:.5rem 4%}
+  .site-header--ecom .main-nav.is-open{display:flex}
+  .site-header--ecom .main-nav > a{padding:.95rem 0;border-bottom:1px solid var(--line)}
+  .site-header--ecom .nav-shop{width:100%;justify-content:space-between;background:none;color:var(--ink);padding:.95rem 0;border-radius:0}
+  .site-header--ecom .nav-shop:hover,.site-header--ecom .nav-item.is-open .nav-shop{background:none;color:var(--accent)}
+  .site-header--ecom .mega{position:static;display:none;opacity:1;visibility:visible;transform:none;box-shadow:none;border:0;border-radius:0}
+  .site-header--ecom .nav-item.is-open .mega{display:block}
+  .site-header--ecom .mega__inner--simple{grid-template-columns:1fr 1fr;gap:.25rem 1rem;padding:.25rem 0 1rem}
+}
+@media(max-width:600px){
+  .site-header--ecom .logo img{height:40px}
+  .site-header--ecom .mega__inner--simple{grid-template-columns:1fr}
+}

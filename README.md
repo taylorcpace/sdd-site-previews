@@ -3,13 +3,22 @@
 Design-only facelift concepts using live samedaydiplomas.com copy + CDN images. Not the live storefront.
 
 - [Hub](https://taylorcpace.github.io/sdd-site-previews/)
-- [Noir Foil](https://taylorcpace.github.io/sdd-site-previews/noir-foil/) — **R7** dark luxury editorial; near-black, ivory, gold foil, bold Archivo display ([Shop](https://taylorcpace.github.io/sdd-site-previews/noir-foil/shop.html) · [Product](https://taylorcpace.github.io/sdd-site-previews/noir-foil/product.html))
+- [Noir Foil](https://taylorcpace.github.io/sdd-site-previews/noir-foil/) — **R8** dark luxury editorial; near-black, ivory, gold foil, bold Archivo display ([Shop](https://taylorcpace.github.io/sdd-site-previews/noir-foil/shop.html) · [Product](https://taylorcpace.github.io/sdd-site-previews/noir-foil/product.html))
 
 Previous round:
 
 - [Flow Clarity](https://taylorcpace.github.io/sdd-site-previews/flow-clarity/) — FLOW-inspired; clear, professional service-site clarity
 - [Congrats Guided](https://taylorcpace.github.io/sdd-site-previews/congrats-guided/) — HeyCongrats-inspired; guided, calm, intent-based retail
 - [Criquet Clean](https://taylorcpace.github.io/sdd-site-previews/criquet-clean/) — Criquet-inspired; clean, photo-led merchandise energy
+
+## Revision 8 (Oct 6, 2026)
+
+Taylor: "lets add a nice lifestyle image to the hero NOT the diplomas"
+
+- **Hero:** the 2×2 document grid is removed. The right half of the hero is now one lifestyle photo, edge to edge, inside a thin gold frame line: graduates tossing their caps at sunset.
+- **Image source:** the photo is the live SDD Shopify CDN image `baim-hanif-pYWuOMhtc6k-unsplash.jpg` (photo by Baim Hanif on Unsplash, https://unsplash.com/photos/pYWuOMhtc6k). It was warm-gold graded to match the palette, with some empty sky and ground trimmed, using `scripts/grade_hero_r8.py`. It's served locally as `noir-foil/img/hero-lifestyle.webp` (2400×1277, about 106 KB).
+- **Mobile:** the photo sits above the text in a 4:3 frame.
+- **Unchanged:** the headline, body, kicker and buttons. The R7 document photos (`img/hero-1..4.webp`) stay in the repo, unused.
 
 ## Revision 7 (Oct 6, 2026)
 

@@ -3,13 +3,31 @@
 Design-only facelift concepts using live samedaydiplomas.com copy + CDN images. Not the live storefront.
 
 - [Hub](https://taylorcpace.github.io/sdd-site-previews/)
-- [Noir Foil](https://taylorcpace.github.io/sdd-site-previews/noir-foil/) — **R9** dark luxury editorial; near-black, ivory, gold foil, bold Archivo display ([Shop](https://taylorcpace.github.io/sdd-site-previews/noir-foil/shop.html) · [Product](https://taylorcpace.github.io/sdd-site-previews/noir-foil/product.html))
+- [Noir Foil](https://taylorcpace.github.io/sdd-site-previews/noir-foil/) — **R10** dark luxury editorial; near-black, ivory, gold foil, bold Archivo display ([Shop](https://taylorcpace.github.io/sdd-site-previews/noir-foil/shop.html) · [Product](https://taylorcpace.github.io/sdd-site-previews/noir-foil/product.html))
 
 Previous round:
 
 - [Flow Clarity](https://taylorcpace.github.io/sdd-site-previews/flow-clarity/) — FLOW-inspired; clear, professional service-site clarity
 - [Congrats Guided](https://taylorcpace.github.io/sdd-site-previews/congrats-guided/) — HeyCongrats-inspired; guided, calm, intent-based retail
 - [Criquet Clean](https://taylorcpace.github.io/sdd-site-previews/criquet-clean/) — Criquet-inspired; clean, photo-led merchandise energy
+
+## Revision 10 (Oct 6, 2026)
+
+Taylor: "throw a few more samples on that section 1.. we can use the space from under the one to the right" and "its ok to have school names. IF they ask us not to make them we will abide by that.."
+
+- **Policy change:** real school and institution names may now show on samples. Recipient (person) names stay placeholders or blurred, personal ID numbers are blurred, signatures are fine, and watermarked images are never used.
+- **Section 01 spread:** the three-card collage is now eight overlapping, slightly rotated, gold-framed cards with no labels. It moved out of the heading column into its own row that runs from the left edge (under the big "01") across the middle column; the intro copy and trust list span both rows on the right. Tablet: full width below the heading and copy. Mobile (≤900px): a neat two-column grid with alternating slight tilts.
+- **Samples (all real photographs; files in `noir-foil/img/`):**
+  - `s01-pepperdine.webp`: Pepperdine University doctoral diploma (original R7 Drive photo, no recipient name on it).
+  - `s01-marquette.webp`: hand-held Marquette University diploma (name already blurred in Drive).
+  - `s01-auburn.webp`: hand-held Auburn University diploma (recipient name blurred).
+  - `s01-national.webp`: hand-held National University diploma (recipient name blurred).
+  - `s01-alberta.webp`: Alberta High School Diploma (original R7 Drive photo, name already blurred).
+  - `s01-aqa.webp`: AQA General Certificate of Education (name already blurred; candidate number blurred).
+  - `s01-ged.webp`: live CDN GED photo `ged-diplomas-9550291.jpg`, now un-blurred (shows the "YOUR NAME" placeholder, Penn Foster and Pennsylvania); still cropped so the "STYLE 3" overlay is gone.
+  - `s01-wecloud.webp`: WeCloudData certificate of achievement (original R7 Drive photo, name already blurred).
+  - Not used: INSEAD (keeps the set from leaning MBA-heavy), plus Utah, South Florida and LIM, which would need heavier name blurring.
+- **Images:** WebP, 900–1150px wide, 49–100 KB each. Script: `scripts/collage_r10.py` (uses `blur_hero_r7.py`). The R9 `s01-college.webp` and `s01-high-school.webp` stay in the repo, unused.
 
 ## Revision 9 (Oct 6, 2026)
 

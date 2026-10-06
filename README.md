@@ -3,13 +3,24 @@
 Design-only facelift concepts using live samedaydiplomas.com copy + CDN images. Not the live storefront.
 
 - [Hub](https://taylorcpace.github.io/sdd-site-previews/)
-- [Noir Foil](https://taylorcpace.github.io/sdd-site-previews/noir-foil/) — **R10** dark luxury editorial; near-black, ivory, gold foil, bold Archivo display ([Shop](https://taylorcpace.github.io/sdd-site-previews/noir-foil/shop.html) · [Product](https://taylorcpace.github.io/sdd-site-previews/noir-foil/product.html))
+- [Noir Foil](https://taylorcpace.github.io/sdd-site-previews/noir-foil/) — **R11** dark luxury editorial; near-black, ivory, gold foil, bold Archivo display ([Shop](https://taylorcpace.github.io/sdd-site-previews/noir-foil/shop.html) · [Product](https://taylorcpace.github.io/sdd-site-previews/noir-foil/product.html))
 
 Previous round:
 
 - [Flow Clarity](https://taylorcpace.github.io/sdd-site-previews/flow-clarity/) — FLOW-inspired; clear, professional service-site clarity
 - [Congrats Guided](https://taylorcpace.github.io/sdd-site-previews/congrats-guided/) — HeyCongrats-inspired; guided, calm, intent-based retail
 - [Criquet Clean](https://taylorcpace.github.io/sdd-site-previews/criquet-clean/) — Criquet-inspired; clean, photo-led merchandise energy
+
+## Revision 11 (Oct 6, 2026)
+
+Taylor supplied a specific hero image: a bright home office with two framed diplomas (Marquette and Auburn) above a wooden desk with a laptop, notebook and mug.
+
+- **Hero photo:** replaces the R9 Pexels graduate. Layout (a) is unchanged (photo in the right half inside the thin gold frame line; text, kicker and buttons untouched).
+  - Used as supplied: no colour grading or restyling. Converted from the original PNG at its native size, 1448×1086 (not upscaled), to `noir-foil/img/hero-office.webp` (about 275 KB, WebP q93). Original kept at `drive-samples/hero-office-taylor.png` in the working folder.
+  - Positioned centre (`object-position: 50% 50%`) so both framed diplomas stay fully inside the gold line, with the desk below.
+  - 901–1320px wide: the right column is too tall and narrow there for both frames to fit with an edge-to-edge crop, so the photo becomes a vertically centred panel (aspect 0.92) in the right column, still inside the gold line.
+  - Mobile: the 4:3 frame above the text matches the image's own 4:3 shape, so the whole picture shows.
+- **No longer used:** the R9 Pexels photo (`img/hero-lifestyle-2.webp`, credit under Revision 9) stays in the repo but is not on any page.
 
 ## Revision 10 (Oct 6, 2026)
 
@@ -34,7 +45,7 @@ Taylor: "throw a few more samples on that section 1.. we can use the space from 
 Taylor: "lets find a new image for hero" and "lets put small collage of high school, ged, college samples at 01 section"
 
 - **Hero photo:** layout (a) is unchanged. The photo is now a smiling graduate in a black gown with a gold stole, raising her diploma.
-  - Credit: photo by **olia danilevich** on **Pexels** (free to use under the Pexels licence), https://www.pexels.com/photo/a-graduate-holding-her-diploma-8093001/. Source file: `https://images.pexels.com/photos/8093001/pexels-photo-8093001.jpeg` (6000×4000).
+  - Credit (**no longer used since R11**): photo by **olia danilevich** on **Pexels** (free to use under the Pexels licence), https://www.pexels.com/photo/a-graduate-holding-her-diploma-8093001/. Source file: `https://images.pexels.com/photos/8093001/pexels-photo-8093001.jpeg` (6000×4000).
   - Edits: lightly warm-graded, with the right 15% of empty trees trimmed. Saved as `noir-foil/img/hero-lifestyle-2.webp` (2400×1882).
   - The R8 cap-toss photo (`img/hero-lifestyle.webp`) is kept in the repo, unused. The baim-hanif photo now appears only once on the homepage, in the "reasons" section.
   - Runners-up:

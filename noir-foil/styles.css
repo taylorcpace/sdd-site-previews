@@ -118,7 +118,8 @@ button{font:inherit;color:inherit;cursor:pointer;background:none;border:0}
 .nf-hero__art::before{content:"";position:absolute;inset:clamp(.9rem,1.6vw,1.4rem);border:1px solid var(--line);pointer-events:none}
 /* R8: one lifestyle photo fills the right half edge to edge; thin gold frame line sits on top */
 .nf-hero__photo{background:#0a0908}
-.nf-hero__photo img{position:absolute;inset:0;width:100%;height:100%;max-width:none;object-fit:cover;object-position:30% 50%}
+.nf-hero__photo img{position:absolute;inset:0;width:100%;height:100%;max-width:none;object-fit:cover;object-position:50% 50%}
+/* R11: Taylor-supplied office photo (used as supplied). Centred so both framed diplomas stay inside the gold line. */
 .nf-hero__photo::before{z-index:1;border-color:rgba(214,178,104,.62)}
 .nf-hero__photo::after{content:"";position:absolute;inset:0;pointer-events:none;background:linear-gradient(90deg,rgba(10,9,8,.35),transparent 18%)}
 /* R6 hero: 2x2 grid of real product samples (GED / College / High School / Certificate) in gold frames.
@@ -423,6 +424,10 @@ button{font:inherit;color:inherit;cursor:pointer;background:none;border:0}
   .nf-help__in{grid-template-columns:1fr 1fr}.nf-help__btns{grid-column:1/-1}
   .nf-foil__head{grid-template-columns:auto 1fr}.nf-foil__head .nf-lead{grid-column:1/-1}
 }
+@media (min-width:901px) and (max-width:1320px){
+  /* R11: right column is too narrow/tall here for both diplomas with cover, so the photo becomes a centred framed panel */
+  .nf-hero__photo{align-self:center;min-height:0;aspect-ratio:.92;border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
+}
 @media (max-width:900px){
   body{font-size:16px}
   .hdr{grid-template-columns:1fr auto;gap:.5rem;min-height:72px;padding:.5rem 1rem}
@@ -451,7 +456,7 @@ button{font:inherit;color:inherit;cursor:pointer;background:none;border:0}
   .nf-hero__copy{padding:2.6rem 1.25rem 2.4rem;order:1}
   .nf-hero__art{order:0;min-height:0;border-left:0;border-bottom:1px solid var(--line)}
   .nf-hero__photo{aspect-ratio:4/3}
-  .nf-hero__photo img{object-position:36% 8%}
+  .nf-hero__photo img{object-position:50% 50%}
   .nf-hero__photo::after{background:linear-gradient(0deg,rgba(10,9,8,.4),transparent 22%)}
   .nf-kicker{margin-bottom:1.2rem;font-size:.74rem;letter-spacing:.16em;gap:.7rem}
   .nf-rule{width:28px}

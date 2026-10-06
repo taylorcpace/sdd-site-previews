@@ -3,13 +3,31 @@
 Design-only facelift concepts using live samedaydiplomas.com copy + CDN images. Not the live storefront.
 
 - [Hub](https://taylorcpace.github.io/sdd-site-previews/)
-- [Noir Foil](https://taylorcpace.github.io/sdd-site-previews/noir-foil/) — **R8** dark luxury editorial; near-black, ivory, gold foil, bold Archivo display ([Shop](https://taylorcpace.github.io/sdd-site-previews/noir-foil/shop.html) · [Product](https://taylorcpace.github.io/sdd-site-previews/noir-foil/product.html))
+- [Noir Foil](https://taylorcpace.github.io/sdd-site-previews/noir-foil/) — **R9** dark luxury editorial; near-black, ivory, gold foil, bold Archivo display ([Shop](https://taylorcpace.github.io/sdd-site-previews/noir-foil/shop.html) · [Product](https://taylorcpace.github.io/sdd-site-previews/noir-foil/product.html))
 
 Previous round:
 
 - [Flow Clarity](https://taylorcpace.github.io/sdd-site-previews/flow-clarity/) — FLOW-inspired; clear, professional service-site clarity
 - [Congrats Guided](https://taylorcpace.github.io/sdd-site-previews/congrats-guided/) — HeyCongrats-inspired; guided, calm, intent-based retail
 - [Criquet Clean](https://taylorcpace.github.io/sdd-site-previews/criquet-clean/) — Criquet-inspired; clean, photo-led merchandise energy
+
+## Revision 9 (Oct 6, 2026)
+
+Taylor: "lets find a new image for hero" and "lets put small collage of high school, ged, college samples at 01 section"
+
+- **Hero photo:** layout (a) is unchanged. The photo is now a smiling graduate in a black gown with a gold stole, raising her diploma.
+  - Credit: photo by **olia danilevich** on **Pexels** (free to use under the Pexels licence), https://www.pexels.com/photo/a-graduate-holding-her-diploma-8093001/. Source file: `https://images.pexels.com/photos/8093001/pexels-photo-8093001.jpeg` (6000×4000).
+  - Edits: lightly warm-graded, with the right 15% of empty trees trimmed. Saved as `noir-foil/img/hero-lifestyle-2.webp` (2400×1882).
+  - The R8 cap-toss photo (`img/hero-lifestyle.webp`) is kept in the repo, unused. The baim-hanif photo now appears only once on the homepage, in the "reasons" section.
+  - Runners-up:
+    - Pexels 17615677 by Ulises Peña (parents hugging a graduate): https://www.pexels.com/photo/mother-and-father-embracing-graduate-son-17615677/. Not used because the stole has a university crest and the background shows a recognisable campus mural.
+    - Pexels 14723868 by Kiptoo Addi: https://www.pexels.com/photo/portrait-of-woman-wearing-graduation-gown-and-cap-14723868/
+    - Pexels 32798077 by Shalom Ejiofor: https://www.pexels.com/photo/elegant-graduation-portrait-with-sunlight-32798077/. Not used because the stole has an emblem.
+- **Section 01 collage:** the engraved-covers photo is replaced by three overlapping, slightly rotated, gold-framed cards of real photographed samples, with no labels. The collage links to `shop.html`.
+  - College: an MBA diploma photo from Taylor's Drive, the R7 processed INSEAD image (`img/s01-college.webp`).
+  - High school: the R7 processed Alberta photo (`img/s01-high-school.webp`).
+  - GED: there is no clean, unwatermarked GED photo anywhere in Taylor's Drive (only watermarked samples and cover mockups), so this uses the live CDN photo `ged-diplomas-9550291.jpg` (`img/s01-ged.webp`). It's cropped to the document, which drops the "STYLE 3" overlay. The testing-centre name, state name, Dept. of Education seal and all signatures are blurred.
+  - Scripts: `scripts/collage_r9.py` (uses `blur_hero_r7.py`).
 
 ## Revision 8 (Oct 6, 2026)
 

@@ -158,7 +158,7 @@ button{font:inherit;color:inherit;cursor:pointer;background:none;border:0}
 .nf-doc__mat{display:block;background:var(--paper);padding:clamp(.9rem,2vw,1.6rem);border:1px solid var(--gold-lo);box-shadow:0 30px 50px rgba(0,0,0,.45)}
 .nf-doc__mat img{width:100%;aspect-ratio:4/3;object-fit:contain;background:var(--paper)}
 .nf-doc__meta{display:flex;align-items:center;gap:.9rem;margin:1.8rem 0 .5rem}
-.nf-num{font-family:var(--serif);font-weight:600;font-style:normal;font-size:2.6rem;line-height:1;padding-right:.06em;background:var(--foil);-webkit-background-clip:text;background-clip:text;color:transparent}
+.nf-num{font-family:var(--sans);font-weight:600;font-style:normal;font-size:2.4rem;line-height:1;padding-right:.04em;font-variant-numeric:lining-nums;background:var(--foil);-webkit-background-clip:text;background-clip:text;color:transparent}
 .nf-doc__kind{font-size:.88rem;font-weight:600;letter-spacing:.2em;text-transform:uppercase;color:var(--gold-hi);padding-left:.9rem;border-left:1px solid var(--gold)}
 .nf-doc__title{font-family:var(--serif);font-weight:500;font-variation-settings:"opsz" 28;font-size:clamp(1.6rem,2.4vw,2.2rem);line-height:1.12;margin-bottom:1rem}
 .nf-doc p{color:var(--ivory-2);margin-bottom:1.5rem}
@@ -383,7 +383,7 @@ button{font:inherit;color:inherit;cursor:pointer;background:none;border:0}
 .nf-step-acc:last-of-type{border-bottom:1px solid var(--line)}
 .nf-step-acc summary{list-style:none;display:grid;grid-template-columns:40px 1fr 20px;align-items:center;gap:.6rem;padding:1.1rem 0;cursor:pointer;font-size:.86rem;letter-spacing:.14em;font-weight:600}
 .nf-step-acc summary::-webkit-details-marker{display:none}
-.nf-step-acc__n{font-family:var(--serif);font-style:normal;font-weight:600;color:var(--gold-hi);font-size:1.25rem;letter-spacing:0}
+.nf-step-acc__n{font-family:var(--sans);font-style:normal;font-weight:600;color:var(--gold-hi);font-size:1.25rem;letter-spacing:0}
 .nf-step-acc summary svg{color:var(--gold);transition:transform .2s}
 .nf-step-acc[open] summary svg{transform:rotate(45deg)}
 .nf-step-acc__body{padding:.4rem 0 1.4rem}

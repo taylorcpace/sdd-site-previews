@@ -20,7 +20,7 @@ Taylor's annotated notes on noir-foil; Bento Finder rejected.
 - **Section numbers:** 01–07 (plus the 01–03 how-to-order steps and the reasons numbers) use a solid gold-foil gradient fill instead of outlines.
 - **Section 01:** a gold-framed photo of metallic-engraved custom covers sits under the H1, so the middle column now balances the trust list.
 - **Spacing:** the Payments/Giving Back → Shop by Document gap went from about 15rem to about 6rem. Section padding is down from clamp(4rem, 9vw, 8rem) to clamp(3rem, 6vw, 5.5rem). The staggered doc offset, step and reason rows, pull quote, carbon and promise bands, shop page head and grid were tightened to match.
-- **No Roman numerals:** Shop by Document uses 1–4 (upright Bodoni, gold), product accordion steps use 1–4, the hero caption is removed, the "Pl. III" caption on the reasons photo is removed and the seal-rail labels read "No. 01…".
+- **No Roman numerals:** Shop by Document uses 1–4 (upright Jost numerals in gold foil so the "1" reads clearly), product accordion steps use 1–4, the hero caption is removed, the "Pl. III" caption on the reasons photo is removed and the seal-rail labels read "No. 01…".
 - **Eyebrows:** labels like "HIGH SCHOOL" are 0.88rem/600 in bright gold with a thin gold divider from the number.
 - **Bento Finder removed** from the repo and the hub. The hub now lists only Noir Foil under "New alternatives", with the three R3 directions under "Previous round".
 

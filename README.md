@@ -3,14 +3,26 @@
 Design-only facelift concepts using live samedaydiplomas.com copy + CDN images. Not the live storefront.
 
 - [Hub](https://taylorcpace.github.io/sdd-site-previews/)
-- [Noir Foil](https://taylorcpace.github.io/sdd-site-previews/noir-foil/) — **NEW (R4)** dark luxury editorial; near-black, ivory, gold foil, Bodoni display
-- [Bento Finder](https://taylorcpace.github.io/sdd-site-previews/bento-finder/) — **NEW (R4)** bright finder-first app commerce; bento tiles, Manrope
+- [Noir Foil](https://taylorcpace.github.io/sdd-site-previews/noir-foil/) — **R5** dark luxury editorial; near-black, ivory, gold foil, Bodoni display ([Shop](https://taylorcpace.github.io/sdd-site-previews/noir-foil/shop.html) · [Product](https://taylorcpace.github.io/sdd-site-previews/noir-foil/product.html))
 
 Previous round:
 
 - [Flow Clarity](https://taylorcpace.github.io/sdd-site-previews/flow-clarity/) — FLOW-inspired; clear, professional service-site clarity
 - [Congrats Guided](https://taylorcpace.github.io/sdd-site-previews/congrats-guided/) — HeyCongrats-inspired; guided, calm, intent-based retail
 - [Criquet Clean](https://taylorcpace.github.io/sdd-site-previews/criquet-clean/) — Criquet-inspired; clean, photo-led merchandise energy
+
+## Revision 5 (Oct 6, 2026)
+
+Taylor's annotated notes on noir-foil; Bento Finder rejected.
+
+- **Hero:** the gold-seal close-up + framed real-school diploma are gone. The right side is now a gold-framed collage on a dark panel with a soft gold glow: the graduation lifestyle photo (large tile), the generic "College University Style 1" diploma + transcript set on an ivory mat, and the gold-foil personalized cover close-up. No real institution names. The "Pl. I / Pl. II" caption was removed.
+- **Readability (sitewide, incl. shop + product):** body is Jost 400 at 17px (16px on mobile) with brighter ivory/mute tones. Small-caps labels, the trust strip, nav, buttons, crumbs, form labels and footer headings are 500–600 and larger (trust strip 0.9rem/600 on a charcoal band). Bodoni headings went from 400 to 500, with a lower optical size (`opsz` 24–36) for sturdier hairlines on 1x screens. Fonts load as variable ranges (Bodoni Moda 400–700 + opsz, Jost 400–700), and Jost 300 is no longer used.
+- **Section numbers:** 01–07 (plus the 01–03 how-to-order steps and the reasons numbers) use a solid gold-foil gradient fill instead of outlines.
+- **Section 01:** a gold-framed photo of metallic-engraved custom covers sits under the H1, so the middle column now balances the trust list.
+- **Spacing:** the Payments/Giving Back → Shop by Document gap went from about 15rem to about 6rem. Section padding is down from clamp(4rem, 9vw, 8rem) to clamp(3rem, 6vw, 5.5rem). The staggered doc offset, step and reason rows, pull quote, carbon and promise bands, shop page head and grid were tightened to match.
+- **No Roman numerals:** Shop by Document uses 1–4 (upright Bodoni, gold), product accordion steps use 1–4, the hero caption is removed, the "Pl. III" caption on the reasons photo is removed and the seal-rail labels read "No. 01…".
+- **Eyebrows:** labels like "HIGH SCHOOL" are 0.88rem/600 in bright gold with a thin gold divider from the number.
+- **Bento Finder removed** from the repo and the hub. The hub now lists only Noir Foil under "New alternatives", with the three R3 directions under "Previous round".
 
 ## Revision 4 (Oct 6, 2026)
 

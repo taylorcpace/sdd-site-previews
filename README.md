@@ -3,13 +3,22 @@
 Design-only facelift concepts using live samedaydiplomas.com copy + CDN images. Not the live storefront.
 
 - [Hub](https://taylorcpace.github.io/sdd-site-previews/)
-- [Noir Foil](https://taylorcpace.github.io/sdd-site-previews/noir-foil/) — **R6** dark luxury editorial; near-black, ivory, gold foil, bold Archivo display ([Shop](https://taylorcpace.github.io/sdd-site-previews/noir-foil/shop.html) · [Product](https://taylorcpace.github.io/sdd-site-previews/noir-foil/product.html))
+- [Noir Foil](https://taylorcpace.github.io/sdd-site-previews/noir-foil/) — **R7** dark luxury editorial; near-black, ivory, gold foil, bold Archivo display ([Shop](https://taylorcpace.github.io/sdd-site-previews/noir-foil/shop.html) · [Product](https://taylorcpace.github.io/sdd-site-previews/noir-foil/product.html))
 
 Previous round:
 
 - [Flow Clarity](https://taylorcpace.github.io/sdd-site-previews/flow-clarity/) — FLOW-inspired; clear, professional service-site clarity
 - [Congrats Guided](https://taylorcpace.github.io/sdd-site-previews/congrats-guided/) — HeyCongrats-inspired; guided, calm, intent-based retail
 - [Criquet Clean](https://taylorcpace.github.io/sdd-site-previews/criquet-clean/) — Criquet-inspired; clean, photo-led merchandise energy
+
+## Revision 7 (Oct 6, 2026)
+
+Taylor: "you are using templates.. I need actual images... no need to put GED HS etc under them … just make sure the quality is good, and there are no watermarks.. if there is a name on it blur it out."
+
+- **Hero:** the four template samples are replaced by real photos of finished, printed documents from Taylor's Drive sample archive: a doctoral diploma (flat lay), a high school diploma, an MBA diploma held in hand, and a certificate of achievement. They're saved locally as `noir-foil/img/hero-1..4.webp` (1600×1231, 80–140 KB each) and pre-cropped to the 1.3 tile ratio, so `object-fit: cover` fills each frame.
+- **Privacy:** every real person name, institution name, signature and institution logo or seal text is blurred. Some photos already had the recipient name blurred; the rest was blurred with Pillow using `scripts/blur_hero_r7.py` (pixelate + Gaussian blur, feathered edges). None of the photos has a watermark.
+- **Labels removed:** the GED / College / High School / Certificate labels and arrows are gone. All four tiles link to `shop.html`. The gold-framed, staggered 2×2 layout is unchanged.
+- Everything else from R6 is unchanged.
 
 ## Revision 6 (Oct 6, 2026)
 

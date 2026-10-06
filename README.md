@@ -3,13 +3,21 @@
 Design-only facelift concepts using live samedaydiplomas.com copy + CDN images. Not the live storefront.
 
 - [Hub](https://taylorcpace.github.io/sdd-site-previews/)
-- [Noir Foil](https://taylorcpace.github.io/sdd-site-previews/noir-foil/) — **R5** dark luxury editorial; near-black, ivory, gold foil, Bodoni display ([Shop](https://taylorcpace.github.io/sdd-site-previews/noir-foil/shop.html) · [Product](https://taylorcpace.github.io/sdd-site-previews/noir-foil/product.html))
+- [Noir Foil](https://taylorcpace.github.io/sdd-site-previews/noir-foil/) — **R6** dark luxury editorial; near-black, ivory, gold foil, bold Archivo display ([Shop](https://taylorcpace.github.io/sdd-site-previews/noir-foil/shop.html) · [Product](https://taylorcpace.github.io/sdd-site-previews/noir-foil/product.html))
 
 Previous round:
 
 - [Flow Clarity](https://taylorcpace.github.io/sdd-site-previews/flow-clarity/) — FLOW-inspired; clear, professional service-site clarity
 - [Congrats Guided](https://taylorcpace.github.io/sdd-site-previews/congrats-guided/) — HeyCongrats-inspired; guided, calm, intent-based retail
 - [Criquet Clean](https://taylorcpace.github.io/sdd-site-previews/criquet-clean/) — Criquet-inspired; clean, photo-led merchandise energy
+
+## Revision 6 (Oct 6, 2026)
+
+Taylor: "lets use real samples of GED, College, High school and a certificate for the hero banner" and "the fonts are cool but maybe not easy to read. can we do something like the sans serif from my logo?"
+
+- **Hero:** the R5 collage is replaced by a gold-framed 2×2 grid of four real product samples from the live Shopify CDN, all generic (placeholder names, no real institutions). The right column is staggered slightly. Each tile links to its shop category (`shop.html?doc=…`) and has a Jost 600 gold label: GED ("State High School Equivalency Diploma", style 3 photo), College ("College University Style 1"), High School ("Your High Schools / Your Name Here" photo) and Certificate ("Certificate of Completion"). The photo samples are cropped to the document with CSS vars (`--x/--y/--dw/--dh`), so the wood background and "STYLE n" overlay don't show. It stays a 2×2 grid on mobile.
+- **Type:** Bodoni Moda is replaced sitewide by **Archivo**: H1 is uppercase 800 at 92% width, H2/H3 are 700 with tight tracking, and section numbers 01–07, step and reason numbers, prices and pull quotes are 600–800. All display italics are removed. The gold "Diplomas" accent keeps its gradient but is upright. Body stays Jost 400, and labels stay Jost 500–600. Archivo was chosen because it's a monoline grotesque with flat terminals and regular-width round caps, close to the "SAME DAY DIPLOMAS" wordmark (which is actually a light geometric slab), and it holds up well in bold on dark backgrounds.
+- Everything else from R5 is unchanged.
 
 ## Revision 5 (Oct 6, 2026)
 
